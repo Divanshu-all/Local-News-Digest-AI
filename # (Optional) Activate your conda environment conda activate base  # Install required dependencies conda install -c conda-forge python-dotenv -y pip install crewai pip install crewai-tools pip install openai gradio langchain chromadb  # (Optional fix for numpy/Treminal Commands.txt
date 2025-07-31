@@ -1,0 +1,15 @@
+# Install crewai
+pip install crewai
+pip install crewai-tools
+pip install openai gradio langchain chromadb
+# (Optional) Activate your conda environment
+conda activate base
+
+# Install required dependencies
+conda install -c conda-forge python-dotenv -y
+
+# (Optional fix for numpy/glibc issues)
+pip install numpy --upgrade
+
+# Run your script
+python news_crew.py
